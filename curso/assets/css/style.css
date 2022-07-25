@@ -7,6 +7,7 @@
 
 body {
     height: 100vh;
+    margin: 0px;
     display: grid;
     grid-template-rows: 120px 1fr 60px;
     grid-template-columns: 1fr;
@@ -19,11 +20,120 @@ body {
 .cabecalho {
     grid-area: cabecalho;
     background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 1;
+    box-shadow: 0px 1px 5px 0px rgba(0, 12, 29, 0.836);
 }
+
+    .cabecalho > h1 {
+        margin: 0px;
+        font-weight: 500;
+        font-size: 2.8rem;
+    }
+
+    .cabecalho > h2 { 
+        margin: 0px;
+        font-weight: 300;
+        font-size: 1.6rem;
+    }
 
 .principal {
     grid-area: principal;
     height: calc(100vh - 180px);
     background-color: #f0f0f0;
+    padding: 20px;
 }
 
+.conteudo {
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.123);
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2em;
+    padding-right: 20px;
+    color: grey;
+}
+
+.modulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.modulo {
+    flex-basis: 32%;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.modulo > h3 {
+    margin: 0px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: blue;
+}
+
+.modulo > ul {
+    padding: 10px;
+    list-style: none;
+}
+
+.modulo > ul > li {
+    padding: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.modulo > ul > li > a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+
+.modulo > ul > li:hover {
+    background-color: #eee;
+}
+
+.modulo.verde { border: 2px solid rgb(0, 173, 0);}
+.modulo.verde h3 { background-color: rgb(0, 173, 0);}
+
+.modulo.vermelho { border: 2px solid red;}
+.modulo.vermelho h3 { background-color: red;}
+
+.modulo.azul { border: 2px solid blue;}
+.modulo.azul h3 { background-color: blue;}
+
+.modulo.roxo { border: 2px solid rgb(173, 0, 173);}
+.modulo.roxo h3 { background-color: rgb(173, 0, 173);}
+
+.modulo.laranja { border: 2px solid orange;}
+.modulo.laranja h3 { background-color: orange;}
+
+.modulo.verde-escuro { border: 2px solid darkgreen;}
+.modulo.verde-escuro h3 { background-color: darkgreen;}
+
+.modulo.vermelho-escuro { border: 2px solid darkred;}
+.modulo.vermelho-escuro h3 { background-color: darkred;}
+
+.modulo.azul-escuro { border: 2px solid darkblue;}
+.modulo.azul-escuro h3 { background-color: darkblue;}
+
+.modulo.roxo-escuro { border: 2px solid rgb(85, 0, 85);}
+.modulo.roxo-escuro h3 { background-color: rgb(85, 0, 85);}
