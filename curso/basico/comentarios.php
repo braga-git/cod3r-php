@@ -13,6 +13,7 @@ echo 'Estou no PHP';
 <p>Depois do primeiro bloco!</p>
 
 <?php
+
 /*
     Linha 1 do comentário
     Linha 2 do comentário
