@@ -30,8 +30,8 @@ body.exercicio {
     border-radius: 4px;
 }
 
-.navegacao > a.verde {background-color: rgb(0, 173, 0); }
-.navegacao > a.vermelho {background-color: red;}
+.navegacao > a.verde {background-color: var(--module-green); }
+.navegacao > a.vermelho {background-color: var(--module-red);}
 
 .conteudo {
     font-size: 2rem;
