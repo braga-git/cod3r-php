@@ -31,4 +31,17 @@ echo '<br>' . $variavel;
 $variavel = "Agora sou uma string!";
 echo '<br>' . $variavel;
 
+// Nomes de variável
 
+$var = 'valida';  
+$var2 = 'valida';
+$VAR3 = 'valida';
+$_var_4= 'valida';
+$vâr5 = 'valida'; // evitar acento
+// $6var = 'invalida';
+// $%var7 = 'invalida';
+// $var8% = 'invalida';
+
+echo '<br>' . $_SERVER;
+echo '<br>';
+echo '<br>' . var_dump($_SERVER);
