@@ -144,7 +144,7 @@ body {
 .modulo.laranja { border: 2px solid var(--module-orange);}
 .modulo.laranja h3 { background-color: var(--module-orange);}
 
-.modulo.verde-escuro { border: 2px solid var(--module-darkegreen);}
+.modulo.verde-escuro { border: 2px solid var(--module-darkgreen);}
 .modulo.verde-escuro h3 { background-color: var(--module-darkgreen);}
 
 .modulo.vermelho-escuro { border: 2px solid var(--module-darkred);}
