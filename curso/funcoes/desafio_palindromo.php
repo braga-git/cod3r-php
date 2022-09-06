@@ -13,7 +13,10 @@ function palindromo($string){
     }
 }
 
-echo palindromo('malayala');
+echo palindromo('malayalam') . '<br>';
+echo palindromo('nossa') . '<br>';
+
+echo '<hr>';
 
 function palindromoResposta($palavra){
     $ultimoIndice = strlen($palavra) - 1;
@@ -23,3 +26,15 @@ function palindromoResposta($palavra){
         } 
     } return 'Sim';
 }
+
+echo palindromoResposta('arara') . '<br>';
+echo palindromoResposta('bola') . '<br>';
+
+echo '<hr>';
+
+function palindromoSimples($palavra){
+    return $palavra === strrev($palavra) ? 'Sim' : 'Não';
+}
+
+echo palindromoSimples('bola') . '<br>';
+echo palindromoSimples('arara') . '<br>';
