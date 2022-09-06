@@ -38,6 +38,7 @@
                         <li><a href="exercicio.php?dir=repeticoes&file=desafio_impressao">Desafio Impressão</a></li>
                         <li><a href="exercicio.php?dir=repeticoes&file=while_dowhile">While/Do While</a></li>
                         <li><a href="exercicio.php?dir=repeticoes&file=desafio_tabela">Desafio Tabela</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=desafio_tabela2">Desafio Tabela 2</a></li>
                     </ul>
                 </div>
                 <div class="modulo laranja">
