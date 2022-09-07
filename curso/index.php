@@ -35,6 +35,10 @@
                         <li><a href="exercicio.php?dir=funcoes&file=args_retorno">Argumentos e Retorno</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=desafio_palindromo">Desafio Palindromo</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=args_variaveis">Argumentos Variáveis</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=arg_padrao">Argumento Padrão</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=usando_tipos">Usando Tipos</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=anonimas">Funções Anônimas</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=closure_callable">Closure e Callable</a></li>
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">
